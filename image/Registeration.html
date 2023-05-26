@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Now</title>
+    <style>
+        *{
+            box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 15px 30px;
+    padding: 8px;
+}
+.container{
+    background-color: #f2f2f2;
+    padding: 20px 15px 20px;
+    border: lightgray;
+    border-radius: 5px;
+}
+select,
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+fieldset{
+    background-color: #fff;
+    border: #9d9c9c;
+    border-radius: 5px;
+}
+.rahol-q{
+    text-align: center;
+}
+input[type=submit]{
+    background-color: #4daea1;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 25px 0px;
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+    <div class="container">   <link rel="stylesheet" href="register.css">
+  <form action=""> <h1 class="rahol-q">Payment Form</h1>
+    <hr>
+    <h2>
+        Contact Information
+    </h2>
+    <p>Name:* <input type="text" name="name" id="name" placeholder="ZEESHAN" ></form></p>
+   <p> Email:* <input type="email" name="email" id="email"placeholder="abcd@gmail.com"></p>
+   <p>Pincode:* <input type="number" name="namber" id="number"placeholder="12345678"></p>
+    <p>Address:* <textarea name="" id="" cols="100" rows="7"placeholder="street no"></textarea></p>
+    <fieldset> <legend>Gender</legend> <p>  Male <input type="radio" name="gender" id="">  Female <input type="radio" name="gender" id=""></p></fieldset>
+<h2>Payment Information
+</h2><p>
+    Card Type: <select name="card type" id="card type">
+    <option value="visa">--Select your card type--</option>
+    <option value="visa">Visa</option>
+    <option value="visa">Mastercard</option>
+    <option value="visa">Union Pay</option>
+    <option value="visa">Paypak</option></select>
+</p>
+<p>Card Number: <input type="number" name="card number" id="card number"placeholder="1111-2222-3333-4444"></p>
+<p>CVV: <input type="number" name="cvv" id="cvv"placeholder="123"></p>
+Expiration Date: <input type="date" name="exp date" id="exp date">
+<input type="submit" value="PAY NOW">
+</form></div>
+</body>
+</html>
